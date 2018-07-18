@@ -1,11 +1,8 @@
-
-
 class HomePage < ExampleStorefrontRootPage
 
   add_id_element(:div, /Automation Practice Website/, id: 'editorial_block_center')
   add_route(:DressesPage, :dresses_button)
-  add_route(:SignInPage, :sign_in_button)
-  add_route(:CasualDressesPage, :navigate_to_casual_via_hover)
+
 
   def create_elements
 
@@ -16,7 +13,7 @@ class HomePage < ExampleStorefrontRootPage
 
     @dresses_button.on_hover do
       @casual_dresses_button.activate
-      CoreUtils.wait_until(3) { @casual_dresses_button.visible? }
+      CoreUtils.wait_until(3) {@casual_dresses_button.visible?}
     end
 
     add_static_text(:phone_info, element_type: :span, class: 'shop-phone')

@@ -1,0 +1,2 @@
+class DressesPage
+end
