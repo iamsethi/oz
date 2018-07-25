@@ -3,11 +3,12 @@
   "LOG_LEVEL": "ACTION",
   "BROWSER": "chrome",
   "CREATE_DOT_GRAPH": true,
-  "MAXIMIZE_BROWSER": false,
+  "MAXIMIZE_BROWSER": true,
   "RESIZE_BROWSER": false,
   "CLOSE_BROWSER": true,
   "PRINT_LEDGER": true,
   "HEADLESS_CHROME": false,
   "FLASH_VALIDATION": false,
-  "DRIVER_LOCATION": false
+  "DRIVER_LOCATION": false,
+  "USE_GRID": true
 }

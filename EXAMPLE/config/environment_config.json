@@ -1,5 +1,6 @@
 {
   "default":{
-    "URL":"https://www.google.com/"
+    "URL":"https://www.google.com/",
+    "GRID":"http://localhost:4444/wd/hub"
   }
 }

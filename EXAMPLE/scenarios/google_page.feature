@@ -1,7 +1,7 @@
-Feature: Test the content of the Home Page
+Feature: Google page
 
   @test
-  Scenario: Static text on the Home Page
+  Scenario: Verify search functionality of google
     Given I am on the Google Page
     Then I can see that all the content on the page is correct
     When I fill the page with Data
